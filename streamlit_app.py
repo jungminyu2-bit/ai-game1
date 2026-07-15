@@ -39,6 +39,7 @@ def next_question():
     st.session_state.answered = False
     st.session_state.feedback = ""
     st.session_state.selected_answer = None
+    st.rerun()
 
 
 if "questions" not in st.session_state:
