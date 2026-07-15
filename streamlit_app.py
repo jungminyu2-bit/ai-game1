@@ -102,7 +102,7 @@ with menu[1]:
     st.markdown("BTS는 방탄소년단으로, 한국의 대표적인 보이그룹입니다. 멋진 춤, 감동적인 노래, 그리고 세련된 비주얼로 전 세계 팬들에게 사랑받고 있어요.")
 
     st.image(
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/BTS_during_a_press_conference_on_April_25%2C_2019_%28cropped%29.jpg/800px-BTS_during_a_press_conference_on_April_25%2C_2019_%28cropped%29.jpg",
+        "images/bts.jpg",
         caption="BTS의 화려한 무대와 세련된 비주얼",
         use_container_width=True,
     )
