@@ -99,15 +99,30 @@ with menu[0]:
 
 with menu[1]:
     st.header("🎤 BTS 소개")
-    st.write("BTS는 방탄소년단으로, 한국의 대표적인 보이그룹입니다.")
-    st.write("멤버는 RM, 진, 슈가, 제이홉, 지민, 뷔, 정국입니다.")
+    st.markdown("BTS는 방탄소년단으로, 한국의 대표적인 보이그룹입니다. 멋진 춤, 감동적인 노래, 그리고 세련된 비주얼로 전 세계 팬들에게 사랑받고 있어요.")
 
-    st.subheader("BTS의 인기 이유")
-    st.write("- 멋진 춤과 노래를 보여줍니다.")
-    st.write("- 다양한 메시지의 음악을 들려줍니다.")
-    st.write("- 전 세계 팬들이 많이 좋아합니다.")
+    st.image(
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/BTS_during_a_press_conference_on_April_25%2C_2019_%28cropped%29.jpg/800px-BTS_during_a_press_conference_on_April_25%2C_2019_%28cropped%29.jpg",
+        caption="BTS의 화려한 무대와 세련된 비주얼",
+        use_container_width=True,
+    )
 
-    st.subheader("좋아하는 BTS 곡")
+    st.subheader("🌟 BTS의 매력")
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.info("🎵 멋진 음악")
+        st.write("다양한 장르의 음악으로 많은 사람들에게 감동을 줍니다.")
+    with col2:
+        st.info("💃 화려한 퍼포먼스")
+        st.write("정교한 안무와 강렬한 무대 매력이 정말 인상적입니다.")
+    with col3:
+        st.info("🌍 글로벌 인기")
+        st.write("전 세계 팬들과 함께하는 특별한 존재입니다.")
+
+    st.subheader("👑 멤버 소개")
+    st.write("RM, 진, 슈가, 제이홉, 지민, 뷔, 정국으로 구성된 BTS는 각각 다른 매력을 가지고 있습니다.")
+
+    st.subheader("🎶 좋아하는 BTS 곡")
     st.write("- Dynamite")
     st.write("- Butter")
     st.write("- Spring Day")
